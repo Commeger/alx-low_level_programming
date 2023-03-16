@@ -6,6 +6,7 @@
 */
 int main(void)
 {
-puts("Programming is like building a multilingual puzzle\n");
+char message[] = "Programming is like building a multilingual puzzle\n";
+fputs(message, stdout);
 return (0);
 }
