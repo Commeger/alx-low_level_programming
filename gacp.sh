@@ -1,3 +1,5 @@
 #!/bin/bash
-alias gacp='git add . && git commit -m "Commited via script" && git push'
+
+echo "Creating 'gacp' alias..."
+alias gacp='git add . && git commit -m "Commit message" && git push'
 echo "Done."
